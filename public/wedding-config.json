@@ -1,0 +1,12 @@
+{
+  "groom": "Dr. Muhammad Tahir",
+  "bride": "Dr. Humna Imtiaz",
+  "countdownTo": "2026-12-18T00:00:00+05:00",
+  "backgroundPhoto": "/media/celebration.jpg",
+  "song": "/media/wedding-melody.mp3",
+  "events": [
+    {"id":"mehndi","name":"Mehndi","date":"Friday, 18 December 2026","day":"18","month":"DEC","tagline":"A little henna. A lot of happiness.","description":"An evening of colour, laughter, and the joyful beginning of our wedding celebrations.","time":"To be announced","venue":"To be announced","video":"/media/mehndi.mp4","poster":"/media/celebration.jpg"},
+    {"id":"barat","name":"Barat","date":"Saturday, 19 December 2026","day":"19","month":"DEC","tagline":"Two hearts. One beautiful beginning.","description":"With the blessings of Allah and our loved ones, we begin a lifetime of love and togetherness.","time":"To be announced","venue":"To be announced","video":"/media/barat.mp4","poster":"/media/celebration.jpg"},
+    {"id":"walima","name":"Walima","date":"Sunday, 20 December 2026","day":"20","month":"DEC","tagline":"Love, gratitude & happily ever after.","description":"Join us as we celebrate a new chapter, surrounded by the people who make it all the more meaningful.","time":"To be announced","venue":"To be announced","video":"/media/walima.mp4","poster":"/media/celebration.jpg"}
+  ]
+}
