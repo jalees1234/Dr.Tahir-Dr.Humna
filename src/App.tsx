@@ -12,7 +12,7 @@ export default function Wedding(){
  const toggleMusic=()=>{if(music){audio.current?.pause();setMusic(false)}else{audio.current?.play().then(()=>setMusic(true)).catch(()=>setMusic(false))}};
  const open=()=>{setOpened(true);audio.current?.play().then(()=>setMusic(true)).catch(()=>{});document.querySelectorAll('video').forEach(v=>v.play().catch(()=>{}));};
  const next=()=>{const ids=['home','mehndi','barat','walima','farewell'];document.getElementById(ids[(ids.indexOf(active)+1)%ids.length])?.scrollIntoView({behavior:'smooth'})};
- return <><audio ref={audio} src={config.song} loop preload="none"/>
+ return <><audio ref={audio} src={config.song} loop preload="auto"/>
  <div className={`entrance ${opened?'opened':''}`} aria-hidden={opened}>
  <div className="curtain left"/><div className="curtain right"/><div className="curtain-top"/>
  <div className="invite-seal"><span className="eyebrow">A WEDDING INVITATION</span><div className="seal-monogram">T<span>&</span>H</div><Ornament/><p>Some stories are written in the stars.</p><h2>Ours begins with you.</h2><button tabIndex={opened?-1:0} className="open-button" onClick={open}>TAP TO OPEN <span>↗</span></button><small>18 · 19 · 20 DECEMBER 2026</small><span className="sound-hint">♫ &nbsp; Best experienced with sound</span></div>

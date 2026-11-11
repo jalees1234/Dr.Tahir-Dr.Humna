@@ -74,3 +74,6 @@ nav{font-size:12px;font-weight:600}
  .hero h1{font-size:clamp(26px,9.5vw,43px)}
  .hero h1 span{white-space:nowrap}
 }
+
+.hero-photo{background:linear-gradient(rgba(250,247,238,.68),rgba(250,247,238,.68)),var(--couple-photo) center/cover}
+.farewell{background:linear-gradient(rgba(250,247,238,.7),rgba(250,247,238,.7)),var(--couple-photo) center/cover}

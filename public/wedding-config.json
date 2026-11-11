@@ -2,7 +2,7 @@
   "groom": "Dr. Muhammad Tahir",
   "bride": "Dr. Humna Imtiaz",
   "countdownTo": "2026-12-18T00:00:00+05:00",
-  "backgroundPhoto": "/media/celebration.jpg",
+  "backgroundPhoto": "/media/brideandgroom.jpg",
   "song": "/media/wedding-melody.mp3",
   "events": [
     {"id":"mehndi","name":"Mehndi","date":"Friday, 18 December 2026","day":"18","month":"DEC","tagline":"A little henna. A lot of happiness.","description":"An evening of colour, laughter, and the joyful beginning of our wedding celebrations.","time":"To be announced","venue":"To be announced","video":"/media/mehndi.mp4","poster":"/media/celebration.jpg"},
